@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#170D2B" />
+  <meta name="description" content="A dreamy birthday surprise made just for Qais." />
+  <title>For Qais — Happy Birthday</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <div class="noise" aria-hidden="true"></div>
+    <div class="stars-layer" aria-hidden="true"></div>
+    <div class="ambient-glow ambient-glow--one" aria-hidden="true"></div>
+    <div class="ambient-glow ambient-glow--two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Back to the beginning">
+        <span class="wordmark-mark">Q</span>
+        <span class="wordmark-copy">a little constellation<br /><em>for you</em></span>
+      </a>
+      <div class="header-actions">
+        <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false" aria-label="Play ambient music">
+          <span class="music-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="music-label">play a little music</span>
+        </button>
+        <a class="header-link" href="#wish">last page <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-pad" id="top" aria-labelledby="heroTitle">
+        <div class="hero-orbit hero-orbit--one" aria-hidden="true"></div>
+        <div class="hero-orbit hero-orbit--two" aria-hidden="true"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> a small celebration of you</p>
+          <p class="hero-date">31 · 10 · ∞</p>
+          <h1 id="heroTitle">Happy Birthday,<br /><em>Qais.</em></h1>
+          <p class="hero-subtitle">A little something made just for you.<br /><span>Take your time. There is no rush through this one.</span></p>
+          <button class="primary-button hero-button" id="openSurprise" type="button">
+            <span>Open your surprise</span>
+            <span class="button-arrow" aria-hidden="true">↓</span>
+          </button>
+        </div>
+        <div class="hero-footer reveal reveal-delay-2">
+          <span>made with a full heart</span>
+          <span class="footer-rule"></span>
+          <span>scroll to wander</span>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true"><span></span></div>
+      </section>
+
+      <section class="letter-section section-pad" id="letter" aria-labelledby="letterTitle">
+        <div class="section-intro reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> 01 / a note for you</p>
+          <h2 id="letterTitle">Before anything else,<br /><em>read this.</em></h2>
+          <p class="section-deck">Some things deserve a slower kind of telling.</p>
+        </div>
+
+        <div class="envelope-stage reveal reveal-delay-1">
+          <button class="envelope" id="envelope" type="button" aria-expanded="false" aria-controls="birthdayLetter">
+            <span class="envelope-shadow" aria-hidden="true"></span>
+            <span class="envelope-body" aria-hidden="true"></span>
+            <span class="envelope-flap" aria-hidden="true"></span>
+            <span class="envelope-letter-peek" aria-hidden="true"></span>
+            <span class="envelope-seal" aria-hidden="true">Q</span>
+            <span class="envelope-label">tap to open</span>
+          </button>
+          <article class="birthday-letter" id="birthdayLetter" aria-hidden="true">
+            <div class="letter-topline"><span>31 October</span><span>for Qais, always</span></div>
+            <div class="letter-copy">
+              <p class="letter-salutation">Dear Qais,</p>
+              <p contenteditable="true" spellcheck="true" class="editable-text">There are people who make a room brighter just by being themselves. You are one of those rare people — quietly, completely, and in ways you probably don't even notice.</p>
+              <p contenteditable="true" spellcheck="true" class="editable-text">I hope this year meets you gently. I hope it brings you the kind of mornings that feel full of possibility, the kind of laughter that stays with you long after the moment has passed, and a thousand small reasons to feel proud of the person you are becoming.</p>
+              <p contenteditable="true" spellcheck="true" class="editable-text">Thank you for the conversations, the little moments, and the space you make for people to be entirely themselves. This is a small reminder that you are seen, appreciated, and very easy to celebrate.</p>
+              <p contenteditable="true" spellcheck="true" class="editable-text">Happy birthday, Qais. I’m really glad the world has you in it.</p>
+              <p class="letter-signoff">With so much love,<br /><em>someone who is very glad it’s you</em></p>
+            </div>
+            <p class="edit-hint"><span aria-hidden="true">✦</span> Tap any paragraph to make the words yours.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="corner-section section-pad" id="corner" aria-labelledby="cornerTitle">
+        <div class="section-intro section-intro--split reveal">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> 02 / our little corner</p>
+            <h2 id="cornerTitle">A few of the things<br /><em>worth keeping.</em></h2>
+          </div>
+          <p class="section-deck">The big things are beautiful. But it’s usually the tiny, almost-missed moments that become home.</p>
+        </div>
+
+        <div class="memory-grid">
+          <article class="memory-card memory-card--feature reveal">
+            <div class="card-meta"><span>memory no. 01</span><span>✦</span></div>
+            <div class="photo-placeholder photo-placeholder--large" data-photo-preview>
+              <div class="photo-art photo-art--moon" aria-hidden="true"><span class="photo-moon"></span><span class="photo-star photo-star--a">✦</span><span class="photo-star photo-star--b">·</span><span class="photo-horizon"></span></div>
+              <label class="upload-label"><span class="upload-plus">+</span><span>Add a photo</span><input class="photo-input" type="file" accept="image/*" /></label>
+            </div>
+            <div class="memory-copy">
+              <p class="memory-kicker">the moment I replay</p>
+              <h3 contenteditable="true" spellcheck="true">That one ordinary day that felt like everything.</h3>
+              <p contenteditable="true" spellcheck="true" class="editable-text">Write a little caption here — a place, a joke, a late-night conversation, or anything that deserves a spot in this corner.</p>
+            </div>
+          </article>
+
+          <article class="memory-card memory-card--note reveal reveal-delay-1">
+            <span class="note-pin" aria-hidden="true"></span>
+            <p class="memory-kicker">small things I remember</p>
+            <p contenteditable="true" spellcheck="true" class="quote-text">“The way you make even the smallest stories feel worth telling.”</p>
+            <div class="card-footer"><span>keep this one</span><span>♡</span></div>
+          </article>
+
+          <article class="memory-card memory-card--photo reveal reveal-delay-2">
+            <div class="photo-placeholder" data-photo-preview>
+              <div class="photo-art photo-art--lavender" aria-hidden="true"><span class="lavender-stem lavender-stem--a"></span><span class="lavender-stem lavender-stem--b"></span><span class="lavender-stem lavender-stem--c"></span><span class="photo-sun"></span></div>
+              <label class="upload-label"><span class="upload-plus">+</span><span>Add a photo</span><input class="photo-input" type="file" accept="image/*" /></label>
+            </div>
+            <div class="memory-copy">
+              <p class="memory-kicker">a place for a favorite</p>
+              <p contenteditable="true" spellcheck="true" class="editable-text">Drop in a picture that makes you smile every time.</p>
+            </div>
+          </article>
+
+          <article class="memory-card memory-card--caption reveal reveal-delay-3">
+            <div class="card-meta"><span>between the lines</span><span>03</span></div>
+            <p contenteditable="true" spellcheck="true" class="editable-text">For the messages that started as “one quick thing” and somehow turned into a whole evening.</p>
+            <div class="caption-doodle" aria-hidden="true"><span></span><span></span><span></span></div>
+          </article>
+        </div>
+        <p class="section-footnote reveal"><span>✦</span> Replace the placeholders with your own memories — this corner is yours to keep.</p>
+      </section>
+
+      <section class="appreciation-section section-pad" id="appreciate" aria-labelledby="appreciateTitle">
+        <div class="section-intro reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> 03 / things I appreciate</p>
+          <h2 id="appreciateTitle">A few truths<br /><em>worth saying out loud.</em></h2>
+          <p class="section-deck">Tap a card. Keep the ones that sound like you, and rewrite the rest.</p>
+        </div>
+
+        <div class="appreciation-grid">
+          <button class="appreciation-card tone-lilac reveal" type="button" aria-expanded="false">
+            <span class="card-front"><span class="card-number">01</span><span class="card-symbol">✦</span><strong>Your curiosity</strong><span class="card-cta">turn me over ↗</span></span>
+            <span class="card-back"><span class="card-number">01 / 06</span><span class="back-symbol">✦</span><span contenteditable="true" spellcheck="true" class="back-message">You notice things other people miss, and you make the world feel more interesting because of it.</span><span class="back-hint">tap to close</span></span>
+          </button>
+          <button class="appreciation-card tone-ink reveal reveal-delay-1" type="button" aria-expanded="false">
+            <span class="card-front"><span class="card-number">02</span><span class="card-symbol">◌</span><strong>Your steadiness</strong><span class="card-cta">turn me over ↗</span></span>
+            <span class="card-back"><span class="card-number">02 / 06</span><span class="back-symbol">◌</span><span contenteditable="true" spellcheck="true" class="back-message">There is something grounding about you. You make things feel a little less impossible.</span><span class="back-hint">tap to close</span></span>
+          </button>
+          <button class="appreciation-card tone-violet reveal reveal-delay-2" type="button" aria-expanded="false">
+            <span class="card-front"><span class="card-number">03</span><span class="card-symbol">☾</span><strong>Your softness</strong><span class="card-cta">turn me over ↗</span></span>
+            <span class="card-back"><span class="card-number">03 / 06</span><span class="back-symbol">☾</span><span contenteditable="true" spellcheck="true" class="back-message">You care deeply, even when you pretend you don’t. That gentleness is one of your superpowers.</span><span class="back-hint">tap to close</span></span>
+          </button>
+          <button class="appreciation-card tone-silver reveal reveal-delay-3" type="button" aria-expanded="false">
+            <span class="card-front"><span class="card-number">04</span><span class="card-symbol">⌁</span><strong>Your humor</strong><span class="card-cta">turn me over ↗</span></span>
+            <span class="card-back"><span class="card-number">04 / 06</span><span class="back-symbol">⌁</span><span contenteditable="true" spellcheck="true" class="back-message">You make laughter feel effortless. Some of my favorite moments are the ones you made ridiculous.</span><span class="back-hint">tap to close</span></span>
+          </button>
+          <button class="appreciation-card tone-deep reveal reveal-delay-4" type="button" aria-expanded="false">
+            <span class="card-front"><span class="card-number">05</span><span class="card-symbol">♡</span><strong>Your heart</strong><span class="card-cta">turn me over ↗</span></span>
+            <span class="card-back"><span class="card-number">05 / 06</span><span class="back-symbol">♡</span><span contenteditable="true" spellcheck="true" class="back-message">You show up with more love than you realize. It changes the people lucky enough to know you.</span><span class="back-hint">tap to close</span></span>
+          </button>
+          <button class="appreciation-card tone-plum reveal reveal-delay-5" type="button" aria-expanded="false">
+            <span class="card-front"><span class="card-number">06</span><span class="card-symbol">∞</span><strong>Just… you</strong><span class="card-cta">turn me over ↗</span></span>
+            <span class="card-back"><span class="card-number">06 / 06</span><span class="back-symbol">∞</span><span contenteditable="true" spellcheck="true" class="back-message">No list could really hold it. I’m grateful for you exactly as you are — no edits needed.</span><span class="back-hint">tap to close</span></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="wish-section section-pad" id="wish" aria-labelledby="wishTitle">
+        <div class="wish-sky" aria-hidden="true">
+          <span class="wish-star wish-star--1">✦</span><span class="wish-star wish-star--2">·</span><span class="wish-star wish-star--3">✦</span><span class="wish-star wish-star--4">·</span><span class="wish-star wish-star--5">✦</span>
+          <span class="wish-moon"><span class="moon-crater moon-crater--1"></span><span class="moon-crater moon-crater--2"></span><span class="moon-crater moon-crater--3"></span></span>
+          <span class="wish-haze wish-haze--1"></span><span class="wish-haze wish-haze--2"></span>
+        </div>
+        <div class="wish-content reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> 04 / one last thing</p>
+          <h2 id="wishTitle">Make a wish,<br /><em>then make it real.</em></h2>
+          <p contenteditable="true" spellcheck="true" class="wish-copy editable-text">May this next chapter surprise you in all the best ways. May it be spacious enough for new dreams, soft enough for rest, and full of people who remind you how loved you are.</p>
+          <p class="final-line">I’m really glad you’re here.<br /><em>Happy Birthday, Qais.</em></p>
+          <button class="ghost-button" id="surpriseButton" type="button"><span>There’s one more thing</span><span aria-hidden="true">✦</span></button>
+          <div class="surprise-note" id="surpriseNote" aria-hidden="true">
+            <span class="surprise-sparkle" aria-hidden="true">✦</span>
+            <p contenteditable="true" spellcheck="true">You are allowed to take up space in every beautiful thing that happens next.</p>
+            <span class="surprise-sparkle surprise-sparkle--right" aria-hidden="true">✦</span>
+          </div>
+        </div>
+        <div class="wish-footer"><span>made with love</span><span class="footer-rule"></span><a href="#top">back to the beginning ↑</a></div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
